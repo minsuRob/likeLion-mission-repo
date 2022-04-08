@@ -6,6 +6,16 @@
   <title>health calendar</title>
   <link href="https://fonts.googleapis.com/css?family=Kanit:300,700" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <!-- 미사용태그 1 css style의 적용방식은 크게 세가지가 있다.
+  1. link style import
+  2. style tag 
+  3. inline style tag
+-->
+  <style>
+    .ronnie {
+      margin-left: 20px;
+    }
+    </style>
 </head>
 
 <body>
@@ -24,7 +34,8 @@
         <span class="month-hover">Jan</span>
         <span class="month-hover">Feb</span>
         <span class="month-hover">Mar</span>
-        <!--  triangle -->
+        <!-- 미사용태그 2 - 의외로 사용되지않은 strong (bold) tag -->
+        <!-- 연도는 저의 생일로..4️⃣ -->
         <strong class="month-color">Apr</strong>
         <span class="month-hover">May</span>
         <span class="month-hover">Jun</span>
@@ -34,7 +45,8 @@
         <span class="month-hover">Oct</span>
         <span class="month-hover">Nov</span>
         <span class="month-hover">Dec</span>
-      </div><!-- months -->
+      </div>
+      <!-- 미사용태그 3 - hr(horizontal rule) tag로써 가로줄을 긋는 형식으로 선의 '종류, 굵기, 색상'를 선택할 수 있다. -->
       <hr class="month-line" />
 
       <div class="days">SUN MON TUE WED THU FRI SAT</div>
@@ -64,7 +76,8 @@
       <div class="event-indicator two"></div>
 
     </div>
-    <!-- calendar-base -->
+
+    <!-- helath calendar 외형 개발할 구간 -->
     <div class="calendar-left">
 
       <div class="hamburger">
@@ -77,25 +90,43 @@
       </div>
       <!-- hamburger -->
 
-
-      <div class="num-date">27</div>
+      <div class="target">
+        <img class="target-img" src="../res/target/1.shoulder.png">
+        <img class="target-img" src="../res/target/2.chest.png">
+        <img class="target-img" src="../res/target/3.back.png">
+        <img class="target-img" src="../res/target/4.arm.png">
+        <img class="target-img" src="../res/target/5.leg.png">
+        <img class="target-img" src="../res/target/6.calf.png">
+        <img class="target-img" src="../res/target/7.hip.png">
+      </div>
       <!--num-date -->
-      <div class="day">THURSDAY</div>
       <!--day -->
-      <div class="current-events">Current Events
+      <div class="menu">
         <br />
         <ul>
-          <li>Day 09 Daily CSS Image</li>
+          <li>전체</li>
+          <li>최근 30일</li>
+          <li>즐겨찾기 </li>
+          <li>커스텀</li>
+          <li>유산소</li>
+          <li>전신</li>
+          <li>스트레칭</li>
         </ul>
-        <span class="posts">See post events</span>
+        <span class="posts">  시작탭 설정</span>
       </div>
-      <!--current-events -->
 
-      <div class="create-event">Create an Event</div>
       <!-- create-event -->
-      <hr class="event-line" />
-      <div class="add-event"><span class="add">+</span></div>
-      <!-- add-event -->
+      <div class="footer">
+        <div class="create-event">슈퍼세트</div>
+        <hr class="event-line" />
+        <!-- 미사용태그 4 - 보통 js와 연계하여, 페이지 이동, 이벤트처리에 사용-->
+        <div class="add-event"><button class="button">확인</button></div>
+      </div>
+
+      <!-- 미사용태그 5 - 헬린이들의 꿈 - 로니콜먼의 명대사를 담았습니다. -->
+      <audio class="ronnie" src='../res/Ronnie_coleman.mp3' width='400' controls>
+        해당 브라우저는 audio 태그를 지원하지 않습니다.
+    </audio>
 
     </div>
     <!-- calendar-left -->

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+
 body {
   width: 50%;
   margin: 100px auto;
@@ -50,19 +57,19 @@ body {
 }
 
 .triangle-left:hover {
-  border-right: 10px solid #2ECC71;
+  border-right: 10px solid #37413b;
 }
 
 .triangle-right:hover {
-  border-left: 10px solid #2ECC71;
+  border-left: 10px solid #37413b;
 }
 
 .month-color {
-  color: #27AE60;
+  color: #37413b;
 }
 
 .month-hover:hover {
-  color: #27e879 !important;
+  color: #37413b !important;
 }
 
 .months {
@@ -79,16 +86,6 @@ body {
   top: 85px;
   width: 57%;
   left: 178px;
-}
-
-.days {
-  color: #AAAAAA;
-  position: relative;
-  font-size: 18px;
-  left: 355px;
-  top: 80px;
-  word-spacing: 35px;
-  font-weight: 600;
 }
 
 .num-dates {
@@ -133,10 +130,10 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #2ECC71;
+  background-color: #37413b;
   position: relative;
-  top: 245px;
-  left: 435px;
+  top: 235px;
+  left: 426px;
 }
 
 .white {
@@ -164,14 +161,32 @@ body {
 }
 
 .calendar-left {
-  width: 300px;
+  width: 340px;
   height: 500px;
   border-radius: 20px 0px 0px 20px;
-  background-color: #2ECC71;
+  background-color: #1b1b20;
   position: relative;
   z-index: -1;
   bottom: 500px;
   color: white;
+}
+
+.menu {
+  width:150px;
+  height:300px;
+  float: left;
+  margin-left: 20px;
+}
+
+
+.target {
+  float: right;
+  width: 170px;
+}
+
+.target-img {
+  width:60px;
+  height:60px;
 }
 
 .hamburger {
@@ -208,12 +223,6 @@ body {
   bottom: 60px;
 }
 
-.current-events {
-  font-size: 15px;
-  position: relative;
-  margin-left: 25px;
-  bottom: 30px;
-}
 
 .posts {
   text-decoration: underline dotted;
@@ -234,15 +243,30 @@ body {
   width: 90%;
 }
 
+
+
+
+.footer {
+  clear: both;
+}
+
+.button {
+  background-color: #a9b1a9; /* Green */
+  color: #37413b;
+  padding: 11px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 2px;
+  cursor: pointer;
+  border-radius: 20%;
+  
+}
+
 .add-event {
-  width: 20px;
-  height: 20px;
-  padding: 0px;
-  border-radius: 50%;
-  border: solid white 2px;
   position: relative;
-  bottom: 42px;
-  left: 260px;
+  bottom: 62px;
+  left: 180px;
 }
 
 .add {
