@@ -48,18 +48,21 @@ body {
   left: 20px;
   top: 36px;
 }
-.triangle-left:hover{
-  border-right: 10px solid#2ECC71;
+
+.triangle-left:hover {
+  border-right: 10px solid #2ECC71;
 }
-.triangle-right:hover{
-  border-left: 10px solid#2ECC71;
+
+.triangle-right:hover {
+  border-left: 10px solid #2ECC71;
 }
 
 .month-color {
   color: #27AE60;
 }
-.month-hover:hover{
-  color:#27e879 !important;
+
+.month-hover:hover {
+  color: #27e879 !important;
 }
 
 .months {
@@ -177,8 +180,9 @@ body {
   left: 25px;
 }
 
-.burger-line:hover, .hamburger:hover{
-  background-color:#27e879 !important;
+.burger-line:hover,
+.hamburger:hover {
+  background-color: #27e879 !important;
 }
 
 .burger-line {
@@ -214,8 +218,9 @@ body {
 .posts {
   text-decoration: underline dotted;
 }
-.posts:hover{
-  color:#27e879 !important;
+
+.posts:hover {
+  color: #27e879 !important;
 }
 
 .create-event {
@@ -247,7 +252,9 @@ body {
   bottom: 10px;
 }
 
-.add:hover, .create-event:hover, .add-event:hover{
-  color:#27e879 !important;
+.add:hover,
+.create-event:hover,
+.add-event:hover {
+  color: #27e879 !important;
   border-color: #27e879 !important;
 }
